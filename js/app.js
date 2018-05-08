@@ -194,7 +194,6 @@ var pymChild = pym.Child({ polling: 500 });
 		});
 
 		function sizeChange() {
-			// console.log($(levelId).width()*2.9)
 		    d3.select("g")
 		    	.attr("transform", "scale(" + $(levelId)
 		    	.width()/600 + ")");
