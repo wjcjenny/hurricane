@@ -167,21 +167,27 @@ var pymChild = pym.Child({ polling: 500 });
 				        	}
 				        })
 				        .style("left", function(d){
-				        	if($(window).width() < 629){
+				        	if($(window).width() < 630){
 				        		 return ((d3.event.pageX + 20) + "px")
+				        	} else if ($(window).width() < 730){
+				        		return ((d3.event.pageX + 15) + "px")
+				        	} else if ($(window).width() < 850){
+				        		return ((d3.event.pageX + 5) + "px")
 				        	} else{
-				        		return ((d3.event.pageX - 75) + "px")
+				        		return ((d3.event.pageX + 5) + "px")
 				        	}
 				        })
 				        .style("top", function(d){
-				        	if($(window).width() < 629){
+				        	if($(window).width() < 630){
 				        		 return ((d3.event.pageY - 185) + "px")
-				        	} else{
-				        		return ((d3.event.pageY - 125) + "px")
+				        	} else if ($(window).width() < 730){
+				        		return ((d3.event.pageY - 135) + "px")
+				        	} else if ($(window).width() < 850){
+				        		return ((d3.event.pageY - 175) + "px")
+				        	} else {
+				        		return ((d3.event.pageY - 175) + "px")
 				        	}
-				        });
-			           // .style("left", (d3.event.pageX - 75) + "px")     
-			           // .style("top", (d3.event.pageY - 125) + "px");    
+				        });    
 					})                 
 				    .on("mouseout", function(d) {       
 				        div.transition()        
