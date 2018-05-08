@@ -125,6 +125,8 @@ var pymChild = pym.Child({ polling: 500 });
 			        .attr("class","insetmap")
 					.attr('x', 450)
 					.attr('y', 350)
+					.attr('width', 120)
+					.attr('height', 120)
 					.attr("xlink:href", "img/inset.png")
 					.style("isolation","isolate")
 
