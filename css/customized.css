@@ -4,36 +4,6 @@
     margin-bottom: 18px;
 }
 
-/*.legend{
-    display: inline-block;
-}*/
-
-
-
-/*.one{
-    height: 10px;
-    width: 10px;
-    background-color: #a3d1ff;
-    display: inline-block;
-}
-.two{
-    height: 10px;
-    width: 10px;
-    background-color: #7b9ec5;
-    display: inline-block;
-}
-.three{
-    height: 10px;
-    width: 10px;
-    background-color: #556d8e;
-    display: inline-block;
-}
-.four{
-    height: 10px;
-    width: 10px;
-    background-color: #30415b;
-    display: inline-block;
-}*/
 .legendtextline{
     font-family: FoundersGroteskMonoRegular!important;
     margin-top: 10px;
@@ -41,12 +11,6 @@
     margin-bottom:2px;
     display: inline-block;
 }
-
-/*.legendtext1{
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-left: 10px;
-}*/
 
 .legendtext2{
     display: inline-block;
@@ -257,19 +221,6 @@ img{
     width:100%;
 }
 
-/*.map-container{
-    width: 100%!important;
-    position:relative;
-}
-
-#inset-map{
-    position:absolute;
-    top:445px; 
-    right:100px;
-    z-index: 2147483646!important;
-    height: 120px;
-    width:120px;
-}*/
 .insetmap{
     z-index: 2147483646!important;
     height: 120px;

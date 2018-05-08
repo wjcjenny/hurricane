@@ -121,21 +121,21 @@ var pymChild = pym.Child({ polling: 500 });
 				var imgs = svg.selectAll("image").data([0]);
 			    
 			    imgs.enter()
-			        .append("svg:image")
-			        .attr("class","insetmap")
+			        .append('svg:image')
+			        .attr('class','insetmap')
 					.attr('x', 450)
 					.attr('y', 350)
 					.attr('width', 120)
 					.attr('height', 120)
-					.attr("xlink:href", "img/inset.png")
-					.style("isolation","isolate")
+					.attr('xlink:href', 'img/inset.png')
+					.style('isolation','isolate')
 
-				svg.append("text")
+				svg.append('text')
 			        .attr('x', 320)
 					.attr('y', 380)
-					.attr("class","insettext")
-			        .attr("text-anchor", "middle")
-			        .text("Gulf of Mexico");
+					.attr('class','insettext')
+			        .attr('text-anchor', 'middle')
+			        .text('Gulf of Mexico');
 
 				// Classic D3... Select non-existent elements, bind the data, append the elements, and apply attributes
 				svg.selectAll( "path" )
