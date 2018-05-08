@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: FoundersGroteskCondSmBd;
+    src: url("../fonts/FoundersGroteskCond-SmBd.woff") format("opentype");;
+}
+
+@font-face {
+    font-family: PublicoTextBold;
+    src: url("../fonts/PublicoText-Bold.woff") format("opentype");;
+}
+@font-face {
+    font-family: PublicoTextItalic;
+    src: url("../fonts/PublicoText-Italic.woff") format("opentype");;
+}
+@font-face {
+    font-family: PublicoTextRoman;
+    src: url("../fonts/PublicoText-Roman.woff") format("opentype");;
+}
+@font-face {
+    font-family: PublicoHeadlineLight;
+    src: url("../fonts/PublicoHeadline-Light.woff") format("opentype");;
+}
+
+
+@font-face {
+    font-family: FoundersGroteskMonoRegular;
+    src: url("../fonts/FoundersGroteskMono-Regular.woff") format("opentype");;
+}
+
+
+
+
+/*body*/
+body {
+    font-family: ProximaNova,ProximaNovaBold, "Helvetica Neue", HelveticaNeue, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+
+}
+
+section.main-graphics{
+    width:100%;
+    margin:0;
+    padding:0px 0 0px 0;
+    
+}
+
+.main-content{
+    padding:0!important;
+}
+
+div.masthead{
+    position:relative;
+    margin-top:0px;
+}
+
+
+/*headline*/
+.header{
+    font-family: FoundersGroteskCondSmBd!important;
+    font-size: 40px;
+    margin-bottom:0;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.subheader{
+    font-family: FoundersGroteskCondSmBd!important;
+    font-size: 28px;
+    margin-bottom:0;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 20px;
+}
+line{
+    stroke:#102039;
+}
+.text-tab{
+    font-family: FoundersGroteskMonoRegular;
+}
+
+.subheadline{
+    font-family: FoundersGroteskCondSmBd!important;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align:center;
+}
+
+/*chatter*/
+.dek{
+    font-family: PublicoHeadlineLight!important;
+    font-size:20px;
+    text-align: left;
+    /*margin-top: 10px!important;*/
+    display: inline-block;
+    line-height: 30px;
+    margin-bottom: 0px!important;
+}
+
+
+/*sourceline*/
+#sourceline {
+   font-family:FoundersGroteskMonoRegular!important;
+   font-size: 12px;
+   max-height: 100px!important;
+   margin-top: 20px;
+}
+
+.footnote{
+    color: black;
+    margin:0;
+}
+
+.source{
+    color: black;
+}
+
+.credit{
+    color: #3D3D3D;
+    margin-bottom:0px;
+    float: left!important;
+    text-align: left!important;
+}
