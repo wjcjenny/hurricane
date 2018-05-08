@@ -1,3 +1,8 @@
+
+.col-xs-12,
+.main-content {
+    position: static !important;
+}
 /*legend*/
 .legendline-map{
     margin-top: 10px;
