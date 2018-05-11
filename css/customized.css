@@ -237,3 +237,26 @@ img{
     fill:#666666;
     font-size: 16px;
 }
+
+.pointtext{
+    font-size: 18px;
+    display: none;
+    font-family:PublicoTextItalic!important;
+}
+
+@media all and (min-width: 300px) and (max-width: 526px) {
+    .pointtext {
+        display: block;
+    }
+}
+
+.pointline{
+    z-index:#666688;
+    display: none;
+}
+
+@media all and (min-width: 300px) and (max-width: 526px) {
+    .pointline {
+        display: block;
+    }
+}

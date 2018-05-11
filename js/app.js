@@ -137,6 +137,22 @@ var pymChild = pym.Child({ polling: 500 });
 			        .attr('text-anchor', 'middle')
 			        .text('Gulf of Mexico');
 
+			    svg.append('text')
+			        .attr('x', 348)
+					.attr('y', 327)
+					.attr('class','pointtext')
+			        .attr('text-anchor', 'middle')
+			        .text('Aranas County ISD');
+
+			    svg.append('line')
+			        .attr("x1",245)
+					.attr("y1",321)
+					.attr("x2",271)
+					.attr("y2",321)
+					.attr('class','pointline')
+					.style("stroke", "black");
+
+
 				// Classic D3... Select non-existent elements, bind the data, append the elements, and apply attributes
 				svg.selectAll( "path" )
 				    .data( topoDistrict.features )
