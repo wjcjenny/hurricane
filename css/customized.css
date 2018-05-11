@@ -20,7 +20,7 @@
 .legendtext2{
     display: inline-block;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 75px;
 }
 
 .legendtext3{
@@ -126,7 +126,7 @@
     background-image: -ms-linear-gradient(top, white, white);
     background-image: -o-linear-gradient(top, white, white);
     background-image: linear-gradient(to bottom, white, white);
-    padding: 4px 6px 4px 6px;
+    padding: 4px 2px 4px 2px;
     font-family:PublicoTextItalic!important;
     display: inline-block;
     color:#b93638;
